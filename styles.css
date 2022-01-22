@@ -1,0 +1,68 @@
+body{
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-style: oblique;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: left;
+    list-style: none;
+    height: 30px;
+    min-width: fit-content;
+    width: 400px;
+    border: 1px solid #817676;
+    border-radius: 10px;
+    box-shadow: #60606040 2px 2px 2px 4px;
+    padding-left: 10px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    order:1;
+}
+
+button{
+    background: url(/like.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    /* top:2px; */
+    right: -50px;
+    /* width: 30px;
+    height: 20px; */
+    position: absolute;
+    border: none;
+}
+
+div{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -50px;
+    right: 1px;
+    border: 1px solid #60606040;
+    border-radius: 10px;
+    box-shadow: #60606040 0px 0px 1px 2px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button:active{
+    opacity: .5;
+}
